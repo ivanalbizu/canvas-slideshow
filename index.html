@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas slideshow</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./src/css/style.scss" />
+    <script type="module" src="./src/js/script.js" defer></script>
+  </head>
+  <body>
+    <input
+      type="text"
+      class="input"
+      id="textInput"
+      placeholder="Write something..."
+      value="Canvas Particles &#127752;" />
+    <canvas id="canvas1"></canvas>
+    <div class="overlap-swiper">
+      <div class="swiper swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              width="160"
+              height="100"
+              src="src/img/img-01.jpg"
+              crossorigin="anonymous"
+              alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              width="160"
+              height="100"
+              src="src/img/img-02.jpg"
+              crossorigin="anonymous"
+              alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              width="160"
+              height="100"
+              src="src/img/img-03.jpg"
+              crossorigin="anonymous"
+              alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              width="160"
+              height="100"
+              src="src/img/img-04.jpg"
+              crossorigin="anonymous"
+              alt="" />
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </body>
+</html>
